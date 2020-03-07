@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Antipasto';
+    src: url('../fonts/antipastopro-demibold-webfont.woff2') format('woff2'),
+         url('../fonts/antipastopro-demibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    text-align: center;
+    background-color: #3C3744;
+    font-family: Antipasto, Arial, Helvetica, sans-serif;
+    color: #B4C5E4;
+}
+h1{
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+#container{
+    display: inline-block;
+    padding: 1em 2em 1em 2em;
+    border: .5em solid #B4C5E4;
+    border-radius: 30px;
+    background-color: #3066BE;
+}
+
+#screen{
+    font-size: 4em;
+    border: 0.3em solid #B4C5E4;
+    border-radius: 15px;
+    margin: 1em auto .5em;
+    padding-left:4em;
+    background-color: #FBFFF1;
+    color: #3C3744;
+}
+
+button{
+    font-family: Antipasto, Arial, Helvetica, sans-serif;
+    font-size: 3.10em;
+    width: 2.5em;
+    height: 2.5em;
+    margin: .25em;
+    border-radius: 20px;
+    /* padding: .25em; */
+    background-color: #FBFFF1;
+}
