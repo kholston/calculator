@@ -25,11 +25,12 @@ h1{
 }
 
 #screen{
+    text-align: right;
     font-size: 4em;
     border: 0.3em solid #B4C5E4;
     border-radius: 15px;
-    margin: 1em auto .5em;
-    padding-left:4em;
+    margin: .5em auto;
+    padding-right: .5em;
     background-color: #FBFFF1;
     color: #3C3744;
 }
@@ -43,4 +44,9 @@ button{
     border-radius: 20px;
     /* padding: .25em; */
     background-color: #FBFFF1;
+}
+#nums{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    height: 1.25em;
 }
